@@ -1,0 +1,18 @@
+.navbar-default .navbar-toggle {
+    border-color: #ffffff;
+  }
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+    background-color: none;
+  }
+  .navbar-toggler{
+    background-color: none;
+    border: none;
+  }
+  .navbar-toggler:hover,
+  .navbar-toggler:focus {
+      border: none;
+  }
+  .navbar-toggler-icon{
+      border: none;
+  }
