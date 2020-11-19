@@ -23,11 +23,17 @@
     height: 118px;
 }
 .custom-btn {
-    background-color: #0FBED8;
+    background-image: linear-gradient(to right, #0EBBDC 0%, #0EBBDC  51%, #1DDBB6 100%);
+    transition: all 1s;
     padding: 10px 20px;
     color: #ffffff;
     border: none;
     border-radius: 20px 0px 20px 0px;
+    font-weight: bold;
+}
+.custom-btn:hover{
+    border-radius: 0px 20px 0px 20px;
+    color: #ffffff;
 }
 
 .menu{

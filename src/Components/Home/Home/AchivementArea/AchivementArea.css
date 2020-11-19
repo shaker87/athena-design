@@ -1,0 +1,105 @@
+.achivement-area{
+    background-image: url(../../../../Image/Background/achivement.png);
+    background-color: #FAFFFD;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 0px
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 400px auto auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+   
+  }
+
+  .grid-item{
+      padding: 10px;
+      color: #333;
+  }
+
+  .item1{
+      grid-row-start: 1;
+      grid-row-end: 3;
+      margin: 30px 0px;
+  }
+  .item1 h1{
+    font-family: 'Yeseva One', cursive;
+      font-size: 38px;
+      color: #0D052E;
+  }
+  .item1 p{
+    color: #707070;
+    font-size: 16px;
+}
+  .itemBg{
+      width: 340px;
+      height: 150px;
+      background-color: #FFFFFF;
+      box-shadow: 5px 10px 5px 5px #EEFDF6;
+      color: #707070;
+      border-radius: 50px 0px 50px 0px;
+      transition: all 1s ease;
+  }
+
+  .img-box img{
+      width: 68px;
+      height: 68px;
+  }
+  .highlight{
+      display: block;
+      font-size: 25px;
+      font-weight: normal;
+  }
+  .counter h1{
+      font-size: 50px;
+      font-weight: bold;
+  }
+  .itemBg:hover{
+    background-image: linear-gradient(to right, #0EBBDC 0%, #0EBBDC  51%, #1DDBB6 100%);
+    color: #fff !important;
+    border-radius: 0px 50px 0px 50px;
+    
+}
+
+  @media only screen and (min-width: 320px) and (max-width: 767px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+       
+      }
+      .item1 h1{
+        font-family: 'Yeseva One', cursive;
+          font-size: 30px;
+          color: #0D052E;
+      }
+
+      .item1 p{
+          color: #707070;
+          font-size: 16px;
+      }
+      .counter h1{
+        font-size: 32px;
+        color: #707070;
+        font-weight: bold;
+    }
+  }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+       
+      }
+}
+
+
