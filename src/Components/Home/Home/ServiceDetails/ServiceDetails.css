@@ -20,7 +20,7 @@
 .service-box:hover{
     border-radius: 50px 0px 50px 0px;
     background-color: #ffff;
-    box-shadow: 0px 5px 7px 5px #888888;
+    box-shadow: 0px 5px 7px 5px #8CE2EF;
     transition: all 1s ease;
 }
 
