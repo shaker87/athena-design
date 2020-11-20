@@ -1,5 +1,7 @@
 import React from 'react';
+import Footer from '../../SharedComponents/Footer/Footer';
 import Header from '../Header/Header';
+import Package from '../PackageArea/Package';
 import RunningArea from '../RunningArea/RunningArea';
 import Service from '../Service/Service';
 import AchivementArea from './AchivementArea/AchivementArea';
@@ -12,6 +14,8 @@ const Home = () => {
             <Service></Service>
             <RunningArea></RunningArea>
             <AchivementArea></AchivementArea>
+            <Package></Package>
+            <Footer></Footer>
         </div>
     );
 };
