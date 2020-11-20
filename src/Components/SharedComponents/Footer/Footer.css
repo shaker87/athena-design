@@ -1,0 +1,142 @@
+.footer-area {
+    background-color: #FAFFFD;
+    height: 100%;
+    padding: 50px 0px;
+}
+
+.input-field {
+    width: 810px;
+    height: 50px;
+    position: relative;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    padding: 15px;
+}
+
+.footer-btn {
+    position: absolute;
+    left: 794px;
+    width: 180px;
+    height: 45px;
+    top: 2px;
+    background-image: linear-gradient(to right, #0EBBDC 0%, #0EBBDC 51%, #1DDBB6 100%);
+    transition: all 1s;
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 400px auto auto auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin-top: 65px;
+}
+
+.footer-logo img {
+    width: 140px;
+    height: 88px;
+}
+
+.icon {
+    margin-top: 20px;
+}
+
+.icon ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.icon ul li {
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.similar-style li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #464646;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .input-field {
+        width: 320px;
+        height: 50px;
+        position: relative;
+        border: none;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    }
+    .footer-btn {
+        position: absolute;
+        left: 224px;
+        width: 115px;
+        height: 45px;
+        top: 3px;
+        background-image: linear-gradient(to right, #0EBBDC 0%, #0EBBDC 51%, #1DDBB6 100%);
+        transition: all 1s;
+        color: #ffffff;
+        border: none;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .input-field {
+        width: 400px;
+        height: 50px;
+        position: relative;
+        border: none;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    }
+    .footer-btn {
+        position: absolute;
+        left: 442px;
+        width: 115px;
+        height: 45px;
+        top: 3px;
+        background-image: linear-gradient(to right, #0EBBDC 0%, #0EBBDC 51%, #1DDBB6 100%);
+        transition: all 1s;
+        color: #ffffff;
+        border: none;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (min-width: 373px) and (max-width: 767px) {
+    .input-field {
+        width: 340;
+        height: 50px;
+        position: relative;
+        border: none;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    }
+    .footer-btn {
+        position: absolute;
+        left: 228px;
+        width: 115px;
+        height: 45px;
+        top: 3px;
+        background-image: linear-gradient(to right, #0EBBDC 0%, #0EBBDC 51%, #1DDBB6 100%);
+        transition: all 1s;
+        color: #ffffff;
+        border: none;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+}

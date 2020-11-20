@@ -1,0 +1,21 @@
+.package {
+    background-image: url(../../../Image//Background/package1.png);
+    width: 100%;
+    height: 850px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 0px
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .package {
+        background-image: url(../../../Image//Background/package1.png);
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 50px 0px
+    }
+}

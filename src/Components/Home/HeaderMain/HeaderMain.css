@@ -1,0 +1,51 @@
+.header-main {
+    width: 100%;
+    height: 570px;
+    margin: 50px 0px;
+}
+
+.header-main-left-content h1 {
+    font-size: 70px;
+    font-family: 'Yeseva One', cursive;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    color: #0D052E;
+}
+
+.header-highlight {
+    display: block;
+}
+
+.header-main-left-content p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8D8D8D;
+    padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .header-main {
+        width: 100%;
+        height: 700px;
+        margin: 30px 0px;
+    }
+    .header-main-left-content h1 {
+        font-size: 36px;
+        font-family: 'Yeseva One', cursive;
+        padding-bottom: 20px;
+        color: #0D052E;
+    }
+    .header-highlight {
+        display: inline-block;
+    }
+    .header-main-left-content p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: #8D8D8D;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
